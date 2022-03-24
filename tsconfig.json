@@ -1,0 +1,33 @@
+{
+    "compilerOptions": {
+      "rootDir": "src",
+      "target": "ES2017",
+      "lib": [
+        "ES2017"
+      ],
+      "module": "ES2020",
+      "moduleResolution": "Node",
+      "strict": true,
+      "alwaysStrict": true,
+      "declaration": true,
+      "sourceMap": true,
+      "noImplicitAny": true,
+      "removeComments": false,
+      "newLine": "lf",
+      "esModuleInterop": true,
+      "forceConsistentCasingInFileNames": true
+    },
+    "include": [
+      "src/**/*"
+    ],
+    "exclude": [
+      "node_modules",
+      "**/*.spec.ts"
+    ],
+    "typedocOptions": {
+      "entryPoints": [
+        "./src"
+      ],
+      "out": "docs"
+    }
+  }
